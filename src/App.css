@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+    text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+a.navbar-brand, a.navbar-default {
+  font-family: 'Inconsolata', monospace;
+  color: black;
 }
 
 .App-logo {
@@ -8,18 +19,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #f4b042;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+
+  a {
+    color: black;
+  }
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
 
 @keyframes App-logo-spin {
